@@ -14,13 +14,17 @@
 		DE4B0C0F18B55A5700497BD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4B0C0E18B55A5700497BD8 /* main.m */; };
 		DE4B0C1318B55A5700497BD8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4B0C1218B55A5700497BD8 /* AppDelegate.m */; };
 		DE4B0C1618B55A5700497BD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE4B0C1418B55A5700497BD8 /* Main.storyboard */; };
-		DE4B0C1918B55A5700497BD8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4B0C1818B55A5700497BD8 /* ViewController.m */; };
 		DE4B0C1B18B55A5700497BD8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE4B0C1A18B55A5700497BD8 /* Images.xcassets */; };
 		DE4B0C2218B55A5800497BD8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE4B0C2118B55A5800497BD8 /* XCTest.framework */; };
 		DE4B0C2318B55A5800497BD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE4B0C0218B55A5700497BD8 /* Foundation.framework */; };
 		DE4B0C2418B55A5800497BD8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE4B0C0618B55A5700497BD8 /* UIKit.framework */; };
 		DE4B0C2C18B55A5800497BD8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE4B0C2A18B55A5800497BD8 /* InfoPlist.strings */; };
 		DE4B0C2E18B55A5800497BD8 /* _____Part2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4B0C2D18B55A5800497BD8 /* _____Part2Tests.m */; };
+		DE4B0C3918B55A8900497BD8 /* BERViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4B0C3818B55A8900497BD8 /* BERViewController.m */; };
+		DE4B0C3B18B55AB700497BD8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE4B0C3A18B55AB700497BD8 /* CoreLocation.framework */; };
+		DE4B0C3D18B55AC000497BD8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE4B0C3C18B55AC000497BD8 /* AudioToolbox.framework */; };
+		DE4B0C4218B55CB900497BD8 /* change.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DE4B0C4118B55CB900497BD8 /* change.mp3 */; };
+		DE4B0C4618B55CC900497BD8 /* exit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DE4B0C4518B55CC900497BD8 /* exit.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +49,18 @@
 		DE4B0C1118B55A5700497BD8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DE4B0C1218B55A5700497BD8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		DE4B0C1518B55A5700497BD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DE4B0C1718B55A5700497BD8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DE4B0C1818B55A5700497BD8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DE4B0C1A18B55A5700497BD8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DE4B0C2018B55A5800497BD8 /* セントラルPart2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "セントラルPart2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE4B0C2118B55A5800497BD8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		DE4B0C2918B55A5800497BD8 /* セントラルPart2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "セントラルPart2Tests-Info.plist"; sourceTree = "<group>"; };
 		DE4B0C2B18B55A5800497BD8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DE4B0C2D18B55A5800497BD8 /* _____Part2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Part2Tests.m"; sourceTree = "<group>"; };
+		DE4B0C3718B55A8900497BD8 /* BERViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BERViewController.h; path = ../BERViewController.h; sourceTree = "<group>"; };
+		DE4B0C3818B55A8900497BD8 /* BERViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BERViewController.m; path = ../BERViewController.m; sourceTree = "<group>"; };
+		DE4B0C3A18B55AB700497BD8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DE4B0C3C18B55AC000497BD8 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		DE4B0C4118B55CB900497BD8 /* change.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = change.mp3; path = "/Users/shimotsu-jun/Downloads/change.mp3"; sourceTree = "<absolute>"; };
+		DE4B0C4518B55CC900497BD8 /* exit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = exit.mp3; path = "/Users/shimotsu-jun/Downloads/exit.mp3"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE4B0C3D18B55AC000497BD8 /* AudioToolbox.framework in Frameworks */,
+				DE4B0C3B18B55AB700497BD8 /* CoreLocation.framework in Frameworks */,
 				DE4B0C0518B55A5700497BD8 /* CoreGraphics.framework in Frameworks */,
 				DE4B0C0718B55A5700497BD8 /* UIKit.framework in Frameworks */,
 				DE4B0C0318B55A5700497BD8 /* Foundation.framework in Frameworks */,
@@ -101,6 +111,8 @@
 		DE4B0C0118B55A5700497BD8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DE4B0C3C18B55AC000497BD8 /* AudioToolbox.framework */,
+				DE4B0C3A18B55AB700497BD8 /* CoreLocation.framework */,
 				DE4B0C0218B55A5700497BD8 /* Foundation.framework */,
 				DE4B0C0418B55A5700497BD8 /* CoreGraphics.framework */,
 				DE4B0C0618B55A5700497BD8 /* UIKit.framework */,
@@ -114,10 +126,11 @@
 			children = (
 				DE4B0C1118B55A5700497BD8 /* AppDelegate.h */,
 				DE4B0C1218B55A5700497BD8 /* AppDelegate.m */,
+				DE4B0C3718B55A8900497BD8 /* BERViewController.h */,
+				DE4B0C3818B55A8900497BD8 /* BERViewController.m */,
 				DE4B0C1418B55A5700497BD8 /* Main.storyboard */,
-				DE4B0C1718B55A5700497BD8 /* ViewController.h */,
-				DE4B0C1818B55A5700497BD8 /* ViewController.m */,
 				DE4B0C1A18B55A5700497BD8 /* Images.xcassets */,
+				DE4B0C4018B55BBB00497BD8 /* Audio */,
 				DE4B0C0918B55A5700497BD8 /* Supporting Files */,
 			);
 			path = "セントラルPart2";
@@ -150,6 +163,15 @@
 				DE4B0C2A18B55A5800497BD8 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE4B0C4018B55BBB00497BD8 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				DE4B0C4118B55CB900497BD8 /* change.mp3 */,
+				DE4B0C4518B55CC900497BD8 /* exit.mp3 */,
+			);
+			name = Audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,7 +251,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE4B0C1B18B55A5700497BD8 /* Images.xcassets in Resources */,
+				DE4B0C4618B55CC900497BD8 /* exit.mp3 in Resources */,
 				DE4B0C0D18B55A5700497BD8 /* InfoPlist.strings in Resources */,
+				DE4B0C4218B55CB900497BD8 /* change.mp3 in Resources */,
 				DE4B0C1618B55A5700497BD8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,8 +273,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE4B0C1918B55A5700497BD8 /* ViewController.m in Sources */,
 				DE4B0C1318B55A5700497BD8 /* AppDelegate.m in Sources */,
+				DE4B0C3918B55A8900497BD8 /* BERViewController.m in Sources */,
 				DE4B0C0F18B55A5700497BD8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,6 +484,7 @@
 				DE4B0C3318B55A5800497BD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE4B0C3418B55A5800497BD8 /* Build configuration list for PBXNativeTarget "セントラルPart2Tests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +493,7 @@
 				DE4B0C3618B55A5800497BD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
